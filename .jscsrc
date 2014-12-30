@@ -1,0 +1,7 @@
+{
+    "fileExtensions": [ ".js", "jscs" ],
+    "disallowSpacesInsideObjectBrackets": true,
+    "validateQuoteMarks": "'",
+    "validateIndentation": 2,
+    "excludeFiles": ["excluded.js"]
+}

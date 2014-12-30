@@ -1,0 +1,26 @@
+{
+  "author": "Rab",
+  "license": "MIT",
+  "description": "Git pre-commit hook example with hint and jscs",
+  "keywords": [
+    "code style",
+    "hint",
+    "jscs",
+    "git pre-commit hook",
+    "pre-commit"
+  ],
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-gitmodified": "^0.1.0",
+    "gulp-jscs": "^1.3.1",
+    "gulp-jshint": "^1.9.0",
+    "gulp-symlink": "^2.1.0",
+    "gutil": "^1.5.5",
+    "jscs": "^1.9.0",
+    "jshint": "^2.5.11",
+    "jshint-stylish": "^1.0.0"
+  },
+  "scripts": {
+    "postinstall": "gulp symlink-githooks"
+  }
+}
