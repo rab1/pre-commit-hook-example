@@ -3,6 +3,10 @@ pre-commit-hook-example
 
 Example of using jshint and jscs in git pre commit hook
 
+##Install npm packages
+```
+npm install
+```
 
 ##Link pre-commit
 
