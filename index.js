@@ -1,5 +1,5 @@
 // example file to test code style and lint
-var b = 5 ;
+var b = 5;
 
 // add function
 function addOn (v){

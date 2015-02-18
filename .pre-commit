@@ -18,7 +18,7 @@ fi
 #git hook for js lint
 if git diff --cached --name-only --diff-filter=ACM | grep '.js$' >/dev/null 2>&1
 then
-  gulp githooks
+  gulp githooks ||  exit 1
 fi
 
 # white space checking hook
